@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>Intro_r</title>
+
+
+<style type="text/css">
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+ol,
+ul,
+li,
+img {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+html * {
+  font-family: "ff-din-web-pro-1", "ff-din-web-pro-2", sans-serif;
+  font-size: 16px;
+  line-height: 19.2px;
+  color-profile: sRGB;
+}
+body {
+  margin: 40px 70px;
+}
+p {
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+strong {
+  font-weight: bold;
+}
+ol,
+ul {
+  margin-left: 2em;
+  margin-bottom: 20px;
+}
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+  margin-top: 10px;
+}
+li {
+  margin-bottom: 10px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: lighter;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 24.624px;
+  line-height: 29.548799999999996px;
+}
+h2 {
+  font-size: 24.624px;
+  line-height: 29.548799999999996px;
+}
+h3 {
+  font-size: 23.44px;
+  line-height: 28.128px;
+}
+h4 {
+  font-size: 22.16px;
+  line-height: 26.592px;
+}
+h5 {
+  font-size: 22.16px;
+  line-height: 26.592px;
+}
+h6 {
+  font-size: 22.16px;
+  line-height: 26.592px;
+}
+img {
+  margin-bottom: 20px;
+}
+h1 img,
+h2 img,
+h3 img,
+h4 img,
+h5 img,
+h6 img,
+p img {
+  margin-bottom: 0;
+}
+pre {
+  margin-bottom: 20px;
+}
+pre,
+code {
+  font-family: monospace;
+}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding: 15px;
+}
+blockquote {
+  border-left: 4px solid;
+  padding: 0 15px;
+}
+blockquote > :first-child {
+  margin-top: 0;
+}
+blockquote > :last-child {
+  margin-bottom: 15px;
+}
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px solid;
+}
+h2 {
+  border-bottom: 1px solid;
+}
+h3,
+h4,
+h5,
+h6 {
+  border-bottom: none;
+}
+html * {
+  color: #657b83;
+}
+html body {
+  background-color: #fdf6e3;
+}
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6 {
+  color: #586e75;
+  border-color: #657b83;
+}
+html a,
+html a:active,
+html a:visited {
+  color: #586e75;
+}
+html a:hover {
+  background-color: #eee8d5;
+}
+html pre {
+  color: #586e75;
+  background-color: #eee8d5;
+}
+html a,
+html a:active,
+html a:visited,
+html code.url {
+  color: #b58900;
+}
+html h1 {
+  color: #b58900;
+}
+html h2,
+html h3,
+html h4,
+html h5,
+html h6 {
+  color: #b58900;
+}
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+@media print {
+  body {
+    margin: 0;
+  }
+  * {
+    color: #000 !important;
+  }
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h1 id="toc_0">Introduction to R - course</h1>
+
+<p><img src="logo.png" alt="WUR logo"></p>
+
+<h6 id="toc_1"><em>Peter van der Togt (Afdelingshoofd Systems &amp; Metadata); Sjors Clemens (themacoördinator van het team Systems Development); Witek ten Hove (HAN); Robert ten Hove</em></h6>
+
+<h5 id="toc_2">Date: Wednesday 12 June 2019</h5>
+
+<h4 id="toc_3">Subjects</h4>
+
+<ul>
+<li>Onderzoek naar software die kan ondersteunen bij het analyseren van literatuur</li>
+<li>
+Hoe kunnen we met behulp van linked open data informatie op sites als groenkennisnet.nl of hydrotheek.nl kunnen verrijken met aanvullende informatie. Vergelijkbaar met Google knowledge panel of bijvoorbeeld <a href="http://gettheresearch.org/search?q=bicycle">http://gettheresearch.org/search?q=bicycle</a>
+Text &amp; Datamining – Hoe werkt dit en wat kunnen we als bibliotheek hierin betekenen voor onderzoekers</li>
+<li>Op dit moment ondersteunt de bibliotheek nog niet in het gebruik van R. Veel universiteitsbibliotheken verzorgen daar iets in. In Utrecht hebben ze een R-café, in Delft hebben ze walk-in sessies Coding Lunch &amp; Data Crunch, bij Eindhoven zijn ze bezig met aansluiten van de RDM cursus bij R cursus. Misschien kan hij 
+een intro R verzorgen voor belangstellenden binnen de bibliotheek * onderzoeken of er vraag is naar meer R trainingen bij WUR</li>
+<li>tips met voorbeelden uitwerken over hoe je je R script goed gedocumenteerd houdt. Dit laatste past ook mooi binnen de thema’s transparency/integriteit en open science. Als hij ook Git kent, zou hij zoiets ook daarvoor kunnen doen.</li>
+</ul>
+
+<p>What can Witek and Robert offer: 
+Create content for existing training systems (leeromgeving)</p>
+
+<ol>
+<li><p>Search for background information, for example: Study the Questionnaire results from Kim van Vliet, student Nutrition &amp; Health at Wageningen University &amp; Research. 
+This questionnaire was about a possible future online course on Big Data in the agriculture and food sector. The purpose is to determine what such a course should look like. Thus, when answering, please keep in mind what you would like to see from such an online course.</p></li>
+<li><p>Survey 
+WtH &amp; RtH create survey. 
+PvdT and SC circulate it among WUR students &amp; researchers. 
+WtH &amp; RtH analyse survey and create user personas. </p></li>
+<li><p>Meetup
+Objectives: Inspiration</p>
+
+<ul>
+<li>Gauging the interests, needs and level (quiz) </li>
+<li>Which groups to focus on? MSc’s, PhD, Postdocs, others? </li>
+<li>Location, library? </li>
+<li>Provide card with link to website with program</li>
+</ul></li>
+<li><p>Training
+subjects: </p>
+
+<ul>
+<li>Introduction R &amp; Rstudio</li>
+<li>Markdown &amp; Notebook (no Jupyter)</li>
+<li>Bookdown &amp; Blogdown</li>
+<li>Using R in surveys and google forms/spreadsheets </li>
+<li>Zotero bibliography</li>
+<li>Visualisation </li>
+<li>Text datamining, natural language processing &amp; topic modeling (guest speaker from bnosac.be)</li>
+<li>Git(hub) &lt;-&gt; Rstudio synchronisation</li>
+<li>MRAN microsoft (Python?)</li>
+</ul></li>
+<li><p>Training methods:</p>
+
+<ul>
+<li>Classroom </li>
+<li>Moodle </li>
+<li>(depends on audience)</li>
+</ul></li>
+<li><p>WUR Certificate</p></li>
+</ol>
+
+<p><img src="Pictures/fig3_1.png" alt="Fig3_1" title="The Cell"></p>
+
+
+
+<script type="text/x-mathjax-config">
+(function () {
+
+MathJax.Hub.Config({
+	'showProcessingMessages': false,
+	'messageStyle': 'none'
+});
+
+if (typeof MathJaxListener !== 'undefined') {
+	MathJax.Hub.Register.StartupHook('End', function () {
+		MathJaxListener.invokeCallbackForKey_('End');
+	});
+}
+
+})();
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+</body>
+
+</html>
